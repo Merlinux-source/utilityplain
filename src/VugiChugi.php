@@ -8,7 +8,6 @@ class VugiChugi{
     }
 
     public static function acRouterSbm(){
-        $variab = self::variab();
         return 'activate_system_submit';
     }
 
