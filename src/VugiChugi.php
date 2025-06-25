@@ -3,95 +3,68 @@
 namespace Laramin\Utility;
 
 class VugiChugi{
-
-    public static function variab()
-    {
-        $var = 'st';
-        $char = 'r_ro';
-        $kar = 't1';
-
-        $variab = $var.$char.$kar.'3';
-
-        return $variab;
-    }
-
-
     public static function acRouter(){
-        $variab = self::variab();
-        return $variab('npgvingr');
+        return 'activate';
     }
 
     public static function acRouterSbm(){
         $variab = self::variab();
-        return $variab('npgvingr_flfgrz_fhozvg');
+        return 'activate_system_submit';
     }
 
     public static function mdNm(){
-        $variab = self::variab();
-        return $variab('purpxCebwrpg');
+        return 'checkProject';
     }
 
     public static function gtc(){
-        $variab = self::variab();
-        return $variab('gotocore');
+        return 'tbgbpber';
     }
 
     public static function acDRouter()
     {
-        $variab = self::variab();
-        return $variab('ubzr');
+        return 'home';
     }
 
     public static function lsTitle()
     {
-        $variab = self::variab();
-        return $variab('Npgvingr');
+        return 'Activate';
     }
 
     public static function lcLabRoute()
     {
-        $variab = self::variab();
-        return $variab('uggcf://yvprafr.ivfreyno.pbz/hcqngrf/irefvba/');
+        return 'https://license.viserlab.com/updates/version/';
     }
 
     public static function lcLabSbm()
     {
-        $variab = self::variab();
-        return $variab('uggcf://yvprafr.ivfreyno.pbz/npgvingr');
+        return 'https://license.viserlab.com/activate';
     }
 
     public static function clsNm(){
-        $variab = self::variab();
-        return $variab('Ynenzva\Hgvyvgl\Pbagebyyre\HgvyvglPbagebyyre');
+        return 'Laramin\Utility\Controller\UtilityController';
     }
 
     public static function pshMdl(){
-        $variab = self::variab();
-        return $variab('cercraqZvqqyrjner');
+        return 'prependMiddleware';
     }
 
     public static function pshMdlGrp(){
-        $variab = self::variab();
-        return $variab('chfuZvqqyrjnerGbTebhc');
+        return 'pushMiddlewareToGroup';
     }
 
     public static function ldRt(){
-        $variab = self::variab();
-        return $variab('ybnqEbhgrfSebz');
+        return 'loadRoutesFrom';
     }
 
     public static function splnk(){
-        $variab = self::variab();
-        return $variab('uggcf://ivfreyno.pbz/fhccbeg');
+        return 'https://viserlab.com/support';
     }
 
     public static function upman(){
-        $variab = self::variab();
-        return $variab('uggcf://yvprafr.ivfreyno.pbz/ncv/erdhrfg-hcqngr-svyr');
+        return 'https://license.viserlab.com/api/request-update-file';
     }
 
     public static function gttmp(){
-        $variab = self::variab();
-        return $variab('uggcf://yvprafr.ivfreyno.pbz/hcqngrf/grzcyngrf/');
+        return 'https://license.viserlab.com/updates/templates/';
     }
 }
