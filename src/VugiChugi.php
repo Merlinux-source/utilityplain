@@ -3,6 +3,11 @@
 namespace Laramin\Utility;
 
 class VugiChugi{
+    public static function variab()
+    {
+        return str_rot13;
+    }
+    
     public static function acRouter(){
         return 'activate';
     }
